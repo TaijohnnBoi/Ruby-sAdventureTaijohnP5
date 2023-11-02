@@ -66,6 +66,12 @@ MonoBehaviour:
     the 2D Renderer in Universal RP.
   preview: {fileID: -3604256930052969394}
   dependencies:
+  - dependency: {fileID: 11400000, guid: bea22090d15964d40b730bec36c4839a, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: fbb2b299fbb8257429e4fe960559a48f, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 7489655605920470993, guid: 87c7a9b401ee09344a5600ef8f6e7c8d, type: 3}
+    instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 61fcd143c875fce42b395d908f39cf93, type: 3}
     instantiationMode: 0
   templatePipeline: {fileID: 0}
