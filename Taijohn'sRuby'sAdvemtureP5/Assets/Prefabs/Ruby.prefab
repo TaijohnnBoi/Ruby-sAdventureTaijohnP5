@@ -100,8 +100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f971f6024761d446be3afcfc2f134be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 7
   maxHealth: 5
+  projectilePrefab: {fileID: 676514845774455739, guid: d1d2a15c534dd234aaff093044ca8041, type: 3}
   timeInvincible: 2
 --- !u!50 &3623567921798383840
 Rigidbody2D:
