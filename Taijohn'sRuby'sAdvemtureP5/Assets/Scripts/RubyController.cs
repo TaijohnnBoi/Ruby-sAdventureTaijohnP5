@@ -10,11 +10,10 @@ public class RubyController : MonoBehaviour
 
     public GameObject projectilePrefab;
 
-    public float timeInvincible = 2.0f;
-
     public int health { get { return currentHealth; } }
     int currentHealth;
 
+    public float timeInvincible = 2.0f;
     bool isInvincible;
     float invincibleTimer;
 
@@ -56,10 +55,9 @@ public class RubyController : MonoBehaviour
         {
             invincibleTimer -= Time.deltaTime;
             if (invincibleTimer < 0)
-            {
                 isInvincible = false;
-            }
         }
+
         if (Input.GetKeyDown(KeyCode.C))
         {
             Launch();
@@ -79,7 +77,6 @@ public class RubyController : MonoBehaviour
     {
         if (amount < 0)
         {
-            animator.SetTrigger("Hit");
             if (isInvincible)
                 return;
 
@@ -99,6 +96,5 @@ public class RubyController : MonoBehaviour
         projectile.Launch(lookDirection, 300);
 
         animator.SetTrigger("Launch");
-
     }
 }
