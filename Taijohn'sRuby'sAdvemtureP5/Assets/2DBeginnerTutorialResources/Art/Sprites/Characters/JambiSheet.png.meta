@@ -88,7 +88,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 1024
@@ -101,7 +101,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 1024
@@ -140,7 +140,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 1024
@@ -166,7 +166,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: tvOS
     maxTextureSize: 1024
@@ -184,64 +184,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JambiIdle1
+      name: JambiSheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 768
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b9f29c444b3a0a488d9e380dd4e476f
-      internalID: 21300000
+      spriteID: d7ea99c8bff7d8844a72d293aa10f59d
+      internalID: 277662764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JambiIdle2
+      name: JambiSheet_1
       rect:
         serializedVersion: 2
         x: 256
         y: 768
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac704b7ce23e935479b6b68735992ca3
-      internalID: 21300002
+      spriteID: 43267db4ed74e4e428c0d89dcab59f5c
+      internalID: -983389860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JambiIdle3
+      name: JambiSheet_2
       rect:
         serializedVersion: 2
         x: 512
         y: 768
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caa29f31bb01b004a92b38edc46f72f3
-      internalID: 21300004
+      spriteID: 09d72bc67b5e93a47aa494a9daa59c63
+      internalID: 1993545793
       vertices: []
       indices: 
       edges: []
@@ -257,9 +257,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      JambiIdle1: 21300000
-      JambiIdle2: 21300002
-      JambiIdle3: 21300004
+      JambiSheet_0: 277662764
+      JambiSheet_1: -983389860
+      JambiSheet_2: 1993545793
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
